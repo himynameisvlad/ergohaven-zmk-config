@@ -12,6 +12,15 @@
             #sensor-binding-cells = <0>;
             bindings = <&kp C_VOL_UP>, <&kp C_VOL_DN>;
         };
+
+        lg_space: lg_space {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LG_SPACE";
+            bindings = <&kp SPACE>, <&lg_tog>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+        };
     };
 
     combos {
