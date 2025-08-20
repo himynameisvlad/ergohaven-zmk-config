@@ -171,9 +171,9 @@
             display-name = "Symbols";
             bindings = <
 &trans           &trans     &trans         &en CARET       &trans       &trans                           &trans             &trans    &en AT_SIGN  &trans    &trans       &trans
-&trans           &trans     &en LT         &kp EQUAL       &en GT       &en GRAVE                        &kp DOUBLE_QUOTES  &en LBKT  &kp UNDER    &en RBKT  &trans       &trans
-&kp EXCLAMATION  &kp COLON  &kp LPAR       &kp MINUS       &kp RPAR     &kp AMPERSAND                    &kp DOLLAR         &en LBRC  &kp RU_SEMI  &kp RBRC  &kp RU_SEMI  &kp RU_QUESTION
-&trans           &trans     &kp BACKSLASH  &kp UNDERSCORE  &kp RU_FSLH  &kp PIPE       &trans    &trans  &kp PERCENT        &en HASH  &en COMMA    &en DOT   &trans       &trans
+&trans           &trans     &en LT         &kp EQUAL       &en GT       &en GRAVE                        &en DOUBLE_QUOTES  &en LBKT  &kp ASTRK    &en RBKT  &trans       &trans
+&kp EXCLAMATION  &en COLON  &kp LPAR       &kp MINUS       &kp RPAR     &kp AMPERSAND                    &kp DOLLAR         &en LBRC  &kp PLUS     &en RBRC  &en RU_SEMI  &en RU_QUESTION
+&trans           &trans     &en BACKSLASH  &kp UNDERSCORE  &en RU_FSLH  &kp PIPE       &trans    &trans  &en PERCENT        &en HASH  &en COMMA    &en DOT   &trans       &trans
                             &trans         &trans          &trans       &mo 5          &trans    &trans  &trans             &trans    &trans       &trans
             >;
         };
