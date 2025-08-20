@@ -107,11 +107,11 @@
 
         en {
             bindings = <
-&kp F1          &kp F2  &kp F3    &kp F4     &kp F5        &kp F6                          &kp F7  &kp F8     &kp F9     &kp F10   &kp F11   &kp NUMBER_8
-&kp TAB         &kp Q   &kp W     &kp E      &kp R         &kp T                           &kp Y   &kp U      &kp I      &kp O     &kp P     &kp BSLH
-&kp LEFT_SHIFT  &kp A   &kp S     &kp D      &kp F         &kp G                           &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z   &kp X     &kp C      &kp V         &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                        &kp LGUI  &kp GRAVE  &kp LEFT_ALT  &mo 2   &kp SPACE    &kp ENTER  &mo 3   &kp RCTRL  &kp RALT   &kp RGUI
+&kp F1          &kp F2  &kp F3    &kp F4     &kp F5        &kp F6                           &kp F7  &kp F8     &kp F9     &kp F10   &kp F11   &kp F12
+&kp TAB         &kp Q   &kp W     &kp E      &kp R         &kp T                            &kp Y   &kp U      &kp I      &kp O     &kp P     &kp BSLH
+&kp LEFT_SHIFT  &kp A   &kp S     &kp D      &kp F         &kp G                            &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z   &kp X     &kp C      &kp V         &kp B   &kp K_MUTE    &kp RBKT   &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+                        &kp LGUI  &kp GRAVE  &kp LEFT_ALT  &mo 2   &kp SPACE     &kp ENTER  &mo 3   &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
             display-name = "Base";
@@ -127,11 +127,11 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp F1          &kp F2                   &kp F3                &kp F4              &kp F5              &kp F6                                                               &kp F7              &kp F8                     &kp F9               &kp F10                &kp F11              &kp NUMBER_9
-&kp TAB         &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                                                   &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp BSLH
-&kp LEFT_SHIFT  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                                                   &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
-&kp LCTRL       &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I   &kp RU_CYRILLIC_HA    &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RSHFT
-                                         &kp LGUI              &kp GRAVE           &kp LEFT_ALT        &mo 2               &kp SPACE             &kp ENTER                  &mo 4               &kp RCTRL                  &kp RALT             &kp RGUI
+&kp F1          &kp F2                   &kp F3                &kp F4              &kp F5              &kp F6                                                       &kp F7              &kp F8                     &kp F9               &kp F10                &kp F11              &kp F12
+&kp TAB         &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                                           &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&kp LEFT_SHIFT  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                                           &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&kp LCTRL       &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I   &kp K_MUTE    &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RU_CYRILLIC_HARD_SIGN
+                                         &kp LGUI              &kp GRAVE           &kp LEFT_ALT        &mo 2               &kp SPACE     &kp ENTER                  &mo 4               &kp RCTRL                  &kp RALT             &kp RGUI
             >;
 
             sensor-bindings =
@@ -145,11 +145,11 @@
 
         nav {
             bindings = <
-&kp ESC  &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4         &kp NUMBER_5                                 &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp K_CALCULATOR
-&trans   &kp BACKSPACE      &kp LA(LEFT_ARROW)  &kp UP              &kp LA(RIGHT_ARROW)  &kp DELETE                                   &kp PG_UP        &kp N7        &kp N8        &kp N9        &trans        &kp CAPSLOCK
-&trans   &kp LA(BACKSPACE)  &kp LEFT            &kp DOWN            &kp RIGHT            &kp RET                                      &kp PG_DN        &kp N4        &kp N5        &kp N6        &trans        &trans
-&trans   &kp LG(BACKSPACE)  &kp LC(LEFT)        &kp LA(UP_ARROW)    &kp LC(RIGHT)        &kp DEL       &trans                 &trans  &kp PRINTSCREEN  &kp N1        &kp N2        &kp N3        &trans        &trans
-                            &trans              &kp LA(DOWN_ARROW)  &kp LC(LEFT)         &trans        &kp LC(RIGHT_ARROW)    &trans  &mo 5            &trans        &kp N0        &trans
+&kp ESC           &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4         &kp NUMBER_5                                      &kp NUMBER_6              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp K_CALCULATOR
+&kp LC(UP_ARROW)  &kp BACKSPACE      &kp LA(LEFT_ARROW)  &kp UP              &kp LA(RIGHT_ARROW)  &kp DELETE                                        &kp PG_UP                 &kp N7        &kp N8        &kp N9        &trans        &kp CAPSLOCK
+&to_ru            &kp LA(BACKSPACE)  &kp LEFT            &kp DOWN            &kp RIGHT            &kp RET                                           &kp PG_DN                 &kp N4        &kp N5        &kp N6        &trans        &trans
+&to_en            &kp LG(BACKSPACE)  &kp LC(LEFT)        &kp LA(UP_ARROW)    &kp LC(RIGHT)        &kp DEL       &kp LS(LC(LG(NUMBER_4)))    &trans  &kp LC(LG(LS(NUMBER_4)))  &kp N1        &kp N2        &kp N3        &trans        &trans
+                                     &trans              &kp LA(DOWN_ARROW)  &kp LC(LEFT)         &trans        &kp LC(RIGHT_ARROW)         &trans  &mo 5                     &trans        &kp N0        &trans
             >;
 
             display-name = "Navigation";
