@@ -157,11 +157,11 @@
 
         sym_en {
             bindings = <
-&trans    &trans     &trans         &kp CARET       &trans    &trans                              &trans             &trans       &kp AT_SIGN  &trans    &trans    &trans
-&trans    &trans     &kp LT         &kp EQUAL       &kp GT    &kp SINGLE_QUOTE                    &kp DOUBLE_QUOTES  &kp LBKT     &kp ASTRK    &kp RBKT  &trans    &trans
-&kp EXCL  &kp COLON  &kp LPAR       &kp MINUS       &kp RPAR  &kp AMPERSAND                       &kp PRCNT          &kp LBRC     &kp PLUS     &kp RBRC  &kp SEMI  &kp QUESTION
-&trans    &trans     &kp BACKSLASH  &kp UNDERSCORE  &kp FSLH  &kp PIPE          &trans    &trans  &kp HASH           &kp PERCENT  &kp COMMA    &kp DOT   &trans    &trans
-                     &trans         &trans          &trans    &mo 5             &trans    &trans  &trans             &trans       &trans       &trans
+&trans    &trans     &trans         &kp CARET       &trans    &trans                              &trans             &trans       &kp AT_SIGN      &trans    &trans    &trans
+&trans    &trans     &kp LT         &kp EQUAL       &kp GT    &kp SINGLE_QUOTE                    &kp DOUBLE_QUOTES  &kp LBKT     &kp RU_ASTERISK  &kp RBKT  &trans    &trans
+&kp EXCL  &kp COLON  &kp LPAR       &kp MINUS       &kp RPAR  &kp AMPERSAND                       &kp DOLLAR         &kp LBRC     &kp PLUS         &kp RBRC  &kp SEMI  &kp QUESTION
+&trans    &trans     &kp BACKSLASH  &kp UNDERSCORE  &kp FSLH  &kp PIPE          &trans    &trans  &kp HASH           &kp PERCENT  &kp COMMA        &kp DOT   &trans    &trans
+                     &trans         &trans          &trans    &mo 5             &trans    &trans  &trans             &trans       &trans           &trans
             >;
 
             display-name = "Symbols";
@@ -170,11 +170,11 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&trans           &trans     &trans         &en CARET       &trans       &trans                           &trans             &trans    &en AT_SIGN  &trans    &trans       &trans
-&trans           &trans     &en LT         &kp EQUAL       &en GT       &en GRAVE                        &en DOUBLE_QUOTES  &en LBKT  &kp ASTRK    &en RBKT  &trans       &trans
-&kp EXCLAMATION  &en COLON  &kp LPAR       &kp MINUS       &kp RPAR     &kp AMPERSAND                    &kp DOLLAR         &en LBRC  &kp PLUS     &en RBRC  &en RU_SEMI  &en RU_QUESTION
-&trans           &trans     &en BACKSLASH  &kp UNDERSCORE  &en RU_FSLH  &kp PIPE       &trans    &trans  &en PERCENT        &en HASH  &en COMMA    &en DOT   &trans       &trans
-                            &trans         &trans          &trans       &mo 5          &trans    &trans  &trans             &trans    &trans       &trans
+&trans           &trans     &trans         &en CARET       &trans       &trans                              &trans             &trans       &en AT_SIGN  &trans    &trans       &trans
+&trans           &trans     &en LT         &kp EQUAL       &en GT       &en SINGLE_QUOTE                    &en DOUBLE_QUOTES  &en LBKT     &kp ASTRK    &en RBKT  &trans       &trans
+&kp EXCLAMATION  &en COLON  &kp LPAR       &kp MINUS       &kp RPAR     &kp AMPERSAND                       &kp DOLLAR         &en LBRC     &kp PLUS     &en RBRC  &en RU_SEMI  &en RU_QUESTION
+&trans           &trans     &en BACKSLASH  &kp UNDERSCORE  &en RU_FSLH  &kp PIPE          &trans    &trans  &en HASH           &en PERCENT  &en COMMA    &en DOT   &trans       &trans
+                            &trans         &trans          &trans       &mo 5             &trans    &trans  &trans             &trans       &trans       &trans
             >;
         };
 
